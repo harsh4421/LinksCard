@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Card Hover | @coding.stella</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social Media Cards</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="cards">
-        <div class="card">
-            <div class="card_content">
-                <i class="fa-brands fa-instagram"></i>
 
-                <h2>Instagram</h2>
-               
+  <div id="cards">
 
-                <a href="#">
-                    <i class="fa-solid fa-link"></i>
-                    <span>Follow me</span>
-                </a>
-            </div>
-        </div>
+    <!-- INSTAGRAM -->
+    <div class="card">
+      <div class="card_content">
+        <i class="fa-brands fa-instagram"></i>
+        <h2>Instagram</h2>
+        <p id="insta-followers">Followers: 1.2K</p>
 
-
-        <div class="card">
-            <div class="card_content">
-                <i class="fa-brands fa-github"></i>
-
-                <h2>Github</h2>
-                
-
-                <a href="#">
-                    <i class="fa-solid fa-link"></i>
-                    <span>Follow me</span>
-                </a>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card_content">
-                <i class="fa-brands fa-linkedin"></i>
-
-                <h2>Linkedin</h2>
-               
-
-                <a href="#">
-                    <i class="fa-solid fa-link"></i>
-                    <span>Connect</span>
-                </a>
-            </div>
-        </div>
-
+        <a href="https://www.instagram.com/harsh_4421xd" target="_blank">
+          <i class="fa-solid fa-link"></i>
+          <span>Follow me</span>
+        </a>
+      </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- GITHUB -->
+    <div class="card">
+      <div class="card_content">
+        <i class="fa-brands fa-github"></i>
+        <h2>GitHub</h2>
+        <p id="github-followers">Followers: --</p>
+
+        <a href="https://github.com/harsh4421" target="_blank">
+          <i class="fa-solid fa-link"></i>
+          <span>Follow me</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- LINKEDIN -->
+    <div class="card">
+      <div class="card_content">
+        <i class="fa-brands fa-linkedin"></i>
+        <h2>LinkedIn</h2>
+        <p id="linkedin-connections">Connections: 500+</p>
+
+        <a href="https://www.linkedin.com/in/harsh-kumar-862331367" target="_blank">
+          <i class="fa-solid fa-link"></i>
+          <span>Connect</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
